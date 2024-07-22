@@ -10,7 +10,7 @@ const LoginModel = ({isOpen, setIsOpen}: {
 }) => {
     return (
         <Dialog onOpenChange={setIsOpen} open={isOpen}>
-            <DialogContent className="absolute z-[9999999]">
+            <DialogContent className="absolute z-[999999]">
                 <DialogHeader>
                     <div className="relative mx-auto w-24 h-24 mb-2">
                         <Image

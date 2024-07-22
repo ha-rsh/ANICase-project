@@ -73,15 +73,16 @@ const DesignPreview = ({configuration} : {configuration: Configuration}) => {
         >
           <Confetti
             active={showConfetti}
-            config={{ elementCount: 200, spread: 120 }}
+            config={{ elementCount: 200, spread: 90 }}
           />
         </div>
 
         <LoginModel isOpen={isLoginModalOpen} setIsOpen={setIsLoginModelOpen} />
+
         <div className="mt-20 grid grid-cols-1 text-sm sm:grid-cols-12 sm:grid-rows-1 sm:gap-x-6 md:gap-x-8 lg:gap-x-12">
           <div className="sm:col-span-4 md:col-span-3 md:row-span-2 md:row-end-2">
             <Phone
-              className={cn(`bg-${tw}`)}
+              className={cn(`bg-${tw}`, "max-w-[150px md:max-w-full")}
               imgSrc={configuration.croppedImageUrl!}
             />
           </div>
