@@ -371,9 +371,9 @@ const DesignConfiguratior = ({configId, imageUrl, imageDimensions} : DesignConfi
                       material: options.material.value,
                       model: options.model.value
                     })
-                    }
-                    size="sm"
-                    className='w-full'
+                  }
+                  size="sm"
+                  className='w-full'
                 >
                   Continue
                   <ArrowRight className="h-4 w-4 ml-1.5"/>
