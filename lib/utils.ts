@@ -41,6 +41,6 @@ export function constructMetadata({
       creator: "@harshitpandey",
     },
     icons,
-    metadataBase: new URL("https://ani-case-project.vercel.app/"),
+    metadataBase: new URL("https://ani-case-project.vercel.app"),
   };
 };

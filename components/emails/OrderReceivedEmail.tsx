@@ -14,7 +14,7 @@ const OrderReceivedEmail = (
         const baseUrl =
           process.env.NODE_ENV === "development"
             ? "http://localhost:3000"
-            : "https://ani-case-project.vercel.app/";
+            : "https://ani-case-project.vercel.app";
         return (
           <Html>
             <Head />
